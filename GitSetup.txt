@@ -1,0 +1,14 @@
+git config --global core.askpass "git-gui--askpass"
+
+touch README.md
+
+git init
+
+git add README.md
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/bandyopi/spark-risk.git
+
+git push -u origin master
+
